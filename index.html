@@ -63,7 +63,7 @@
                           <a href="#" class="button">Check it Out</a>
                       </div>
                       <div class="grid-half">
-                          <img src="img/slide-Kitt.png" alt="" />
+                          <img src="img/slide-kitt.png" alt="" />
                       </div>
                   </div><!--/Slide 4-->
               </div>
@@ -105,9 +105,16 @@
       <script src="js/animsition/jquery.animsition.min.js"></script>
       <script src="js/sticky/jquery.sticky.js"></script>
       <script src="js/slick/slick.js"></script>
+      <script src="js/slick/slick-theme.css"></script>
       <script src="js/main.js"></script>
     <script>
-        $('.slides').slick();
+        $('.slides').slick({
+            fade: true,
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            arrows: false
+                           });
     </script>
     </body>
 </html>
