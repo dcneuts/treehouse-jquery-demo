@@ -9,3 +9,4 @@ $(".animsition").animsition({
 	inDuration: 1000,
 	outDuration: 500
 });
+$('.header').sticky();
