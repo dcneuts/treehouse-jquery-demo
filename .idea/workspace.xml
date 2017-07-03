@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c53b97a3-fa49-4725-a1b0-e2299be68d41" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,8 +66,8 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="677">
-                  <caret line="344" column="6" lean-forward="false" selection-start-line="344" selection-start-column="0" selection-end-line="344" selection-end-column="6" />
+                <state relative-caret-position="699">
+                  <caret line="345" column="26" lean-forward="true" selection-start-line="345" selection-start-column="26" selection-end-line="345" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -94,6 +94,7 @@
         <option value="$PROJECT_DIR$/team.html" />
         <option value="$PROJECT_DIR$/work.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -330,7 +331,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499050387406</updated>
-      <workItem from="1499050388788" duration="5075000" />
+      <workItem from="1499050388788" duration="5237000" />
     </task>
     <task id="LOCAL-00001" summary="Included references to the plugin Animsition in the header and footer areas of the index.html page to load the applicable plugin template, also added several classes to start testing">
       <created>1499051249022</created>
@@ -388,11 +389,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499062973308</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="sticky() plugin was called using jQuery targeting the header class">
+      <created>1499063306000</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1499063306000</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5075000" />
+    <option name="totallyTimeSpent" value="5237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="0" width="1922" height="1086" extended-state="6" />
@@ -458,7 +466,8 @@
     <MESSAGE value="Removed animsition classes from header anchor elements and used the plugin's linkElement attribute to specify to apply the effect on all header anchor elements instead, also specified in and out duration in ms" />
     <MESSAGE value="Downloaded jssticky plugin, placed it in the project directory, and setup the script reference in the footer of each page" />
     <MESSAGE value="Plugin files for next phase of project added with this commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Plugin files for next phase of project added with this commit" />
+    <MESSAGE value="sticky() plugin was called using jQuery targeting the header class" />
+    <option name="LAST_COMMIT_MESSAGE" value="sticky() plugin was called using jQuery targeting the header class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -501,8 +510,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="344" column="6" lean-forward="false" selection-start-line="344" selection-start-column="0" selection-end-line="344" selection-end-column="6" />
+        <state relative-caret-position="699">
+          <caret line="345" column="26" lean-forward="true" selection-start-line="345" selection-start-column="26" selection-end-line="345" selection-end-column="26" />
           <folding />
         </state>
       </provider>

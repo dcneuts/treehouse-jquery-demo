@@ -344,4 +344,9 @@ footer {
 
 header {
   background-color: white;
+    transition: 1s;
+}
+
+.is-sticky .header {
+  background-color: #000;
 }
