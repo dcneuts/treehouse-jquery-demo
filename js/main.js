@@ -11,7 +11,8 @@ $('.animsition').animsition({
 });
 
 // Customization for StickyJS plugin
-$('.header').sticky();
+// getWidthFrom and responsiveWidth are options from the plugin documentation
+$('.header').sticky({getWidthFrom: '.container', responsiveWidth: true});
 
 $('.header').on('sticky-start', function() {
 	$('.description').html('We build <strong>great</strong> apps');
@@ -19,4 +20,14 @@ $('.header').on('sticky-start', function() {
 
 $('.header').on('sticky-end', function() {
 	$('.description').html('We build apps');
+});
+
+$('.work').sticky({topSpacing: 64, getWidthFrom: '.container', responsiveWidth: true});
+
+$('.work').on('sticky-start', function() {
+	$(this).append(' <a href="mailto:email@website.com" class="email-text">Email&nbsp;us</a>');
+});
+
+$('.work').on('sticky-end', function() {
+	$('.email-text').remove();
 });
