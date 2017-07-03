@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53b97a3-fa49-4725-a1b0-e2299be68d41" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slides.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work.html" afterPath="$PROJECT_DIR$/work.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,11 +37,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="work.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="work.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/work.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="484">
                   <caret line="64" column="53" lean-forward="true" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="slides.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/slides.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="88">
+                  <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -83,6 +92,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -102,6 +112,7 @@
         <option value="$PROJECT_DIR$/team.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/work.html" />
+        <option value="$PROJECT_DIR$/slides.html" />
       </list>
     </option>
   </component>
@@ -279,6 +290,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -373,7 +385,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499050387406</updated>
-      <workItem from="1499050388788" duration="10244000" />
+      <workItem from="1499050388788" duration="10400000" />
     </task>
     <task id="LOCAL-00001" summary="Included references to the plugin Animsition in the header and footer areas of the index.html page to load the applicable plugin template, also added several classes to start testing">
       <created>1499051249022</created>
@@ -473,11 +485,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499068595528</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added a placeholder for the content in the slides, found an incorrect IMG name for work.html and fixed it">
+      <created>1499069002105</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1499069002105</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10244000" />
+    <option name="totallyTimeSpent" value="10400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="0" width="1922" height="1086" extended-state="6" />
@@ -549,7 +568,8 @@
     <MESSAGE value="Adding slick.js plugin for jQuery to the project for a carousel effect, initial addition of project files" />
     <MESSAGE value="Incorporated slick.js into all pages, chose non-minified version in order to view code in the exercise" />
     <MESSAGE value="Added plugin CSS reference to headers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added plugin CSS reference to headers" />
+    <MESSAGE value="Added a placeholder for the content in the slides, found an incorrect IMG name for work.html and fixed it" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a placeholder for the content in the slides, found an incorrect IMG name for work.html and fixed it" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -595,6 +615,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="64" column="53" lean-forward="true" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slides.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding />
         </state>
       </provider>
