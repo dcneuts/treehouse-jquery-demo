@@ -176,19 +176,6 @@ nav a.active {
 .yellow {
   background: #FFD365;
 }
-.slick-dots {
-  position: absolute;
-  width: 100%;
-  bottom: 20px;
-  left: 0;
-}
-.slick-dots li button:before {
-  font-size: 16px;
-  color: #fff;
-}
-.slick-dots li.slick-active button:before {
-  color: #fff;
-}
 
 /*Footer*/
 footer {
@@ -344,10 +331,24 @@ footer {
 
 header {
   background-color: white;
-    transition: 1s;
+    transition: background 1s;
 }
 
 .is-sticky .header {
   background-color: #000;
     color: #fff;
+}
+
+.slick-dots {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    left: 0;
+}
+.slick-dots li button:before {
+    font-size: 16px;
+    color: #000;
+}
+.slick-dots li.slick-active button:before {
+    color: #000;
 }
