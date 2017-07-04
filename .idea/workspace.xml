@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c53b97a3-fa49-4725-a1b0-e2299be68d41" name="Default" comment="">
+    <list default="true" id="c53b97a3-fa49-4725-a1b0-e2299be68d41" name="Default" comment="Implemented slider on team.html page, multiple issues with slider compatibility, basic fixes provided for classroom project, adjust z-index and other parameters to get slider functioning">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team.html" afterPath="$PROJECT_DIR$/team.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,38 +25,28 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="466">
-                  <caret line="108" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+                <state relative-caret-position="396">
+                  <caret line="13" column="63" lean-forward="false" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="team.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="team.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/team.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="686">
-                  <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+                <state relative-caret-position="647">
+                  <caret line="127" column="90" lean-forward="false" selection-start-line="127" selection-start-column="90" selection-end-line="127" selection-end-column="90" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="work.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="work.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/work.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="818">
+                <state relative-caret-position="1324">
                   <caret line="64" column="53" lean-forward="false" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="slides.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/slides.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1078">
-                  <caret line="49" column="21" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="49" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -70,7 +59,7 @@
           <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="682">
+                <state relative-caret-position="770">
                   <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#38#0" expanded="false" />
@@ -83,8 +72,8 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="171">
-                  <caret line="323" column="12" lean-forward="false" selection-start-line="323" selection-start-column="12" selection-end-line="323" selection-end-column="12" />
+                <state relative-caret-position="683">
+                  <caret line="348" column="14" lean-forward="false" selection-start-line="348" selection-start-column="14" selection-end-line="348" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -117,8 +106,8 @@
         <option value="$PROJECT_DIR$/work.html" />
         <option value="$PROJECT_DIR$/slides.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/team.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -133,9 +122,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
+    <option name="x" value="1919" />
     <option name="width" value="1922" />
-    <option name="height" value="1059" />
+    <option name="height" value="1086" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -405,7 +394,7 @@
       <updated>1499050387406</updated>
       <workItem from="1499050388788" duration="12954000" />
       <workItem from="1499096025820" duration="195000" />
-      <workItem from="1499096236780" duration="698000" />
+      <workItem from="1499096236780" duration="4545000" />
     </task>
     <task id="LOCAL-00001" summary="Included references to the plugin Animsition in the header and footer areas of the index.html page to load the applicable plugin template, also added several classes to start testing">
       <created>1499051249022</created>
@@ -540,15 +529,28 @@
       <option name="project" value="LOCAL" />
       <updated>1499071642086</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Prepped team.html for slider implementation, known bugs regarding buttons not becoming dots, will seek a workaround, reported but not fixed">
+      <created>1499096983121</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1499096983121</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Implemented slider on team.html page, multiple issues with slider compatibility, basic fixes provided for classroom project, adjust z-index and other parameters to get slider functioning">
+      <created>1499100117024</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1499100117024</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13847000" />
+    <option name="totallyTimeSpent" value="17694000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1059" extended-state="6" />
-    <editor active="true" />
+    <frame x="1919" y="0" width="1922" height="1086" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14461046" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -557,7 +559,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33055267" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33055267" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -621,7 +623,9 @@
     <MESSAGE value="Current bug with slick.js (https://github.com/kenwheeler/slick/issues/1811) previous and next buttons appearing respectively on top and bottom of slider" />
     <MESSAGE value="Fixed another bug with missing image from slider, setup the script using JS object literal to define behavior of the slide, need to style the buttons now, added custom theme CSS to index.html for slider" />
     <MESSAGE value="Found some additional glitches that were overlooked by the instructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Found some additional glitches that were overlooked by the instructor" />
+    <MESSAGE value="Prepped team.html for slider implementation, known bugs regarding buttons not becoming dots, will seek a workaround, reported but not fixed" />
+    <MESSAGE value="Implemented slider on team.html page, multiple issues with slider compatibility, basic fixes provided for classroom project, adjust z-index and other parameters to get slider functioning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented slider on team.html page, multiple issues with slider compatibility, basic fixes provided for classroom project, adjust z-index and other parameters to get slider functioning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -730,17 +734,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1324">
+          <caret line="64" column="53" lean-forward="false" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="13" column="63" lean-forward="false" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/slides.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="49" column="21" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="49" selection-end-column="21" />
+        <state relative-caret-position="836">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
+        <state relative-caret-position="770">
           <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="e#0#38#0" expanded="false" />
@@ -749,34 +769,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="323" column="12" lean-forward="false" selection-start-line="323" selection-start-column="12" selection-end-line="323" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="108" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+        <state relative-caret-position="647">
+          <caret line="127" column="90" lean-forward="false" selection-start-line="127" selection-start-column="90" selection-end-line="127" selection-end-column="90" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work.html">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="818">
-          <caret line="64" column="53" lean-forward="false" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+        <state relative-caret-position="683">
+          <caret line="348" column="14" lean-forward="false" selection-start-line="348" selection-start-column="14" selection-end-line="348" selection-end-column="14" />
           <folding />
         </state>
       </provider>
